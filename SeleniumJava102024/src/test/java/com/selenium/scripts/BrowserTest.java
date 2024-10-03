@@ -24,9 +24,8 @@ public class BrowserTest {
 			// Launch the firefox browser
 			driver = new FirefoxDriver();
 			break;
-
 		default:
-			System.out.println("Invalid browser..!");
+			System.out.println("Browser name is invalid..!");
 			break;
 		}
 
