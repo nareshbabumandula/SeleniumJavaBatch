@@ -20,7 +20,7 @@ public class BrowserTest {
 			// Launch the chrome browser
 			driver = new ChromeDriver();
 			break;
-		case "edge": case "EDGE":
+		case "edge": case "EDGE": case "msedge":
 			// Launch the edge browser
 			driver = new EdgeDriver();
 			break;
